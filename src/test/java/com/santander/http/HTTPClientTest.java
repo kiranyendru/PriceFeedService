@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class HTTPClientTest {
     private HttpClient httpClient;
-    private final String URI = "https://santander.com/prices-with-brokerage";
+    private final String URI = "https://testapi.santander.com/v1/prices/";
 
     @Before
     public void before() {
