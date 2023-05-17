@@ -11,7 +11,7 @@ public class PriceSubscriber implements Subscriber {
 
     private final Map<String, Price> latestPrices;
     private final HttpClient httpClient;
-    private static final String ENDPOINT_URI = "https://santander.com/prices-with-brokerage";
+    private static final String ENDPOINT_URI = "https://api.santander.com/v1/prices/";
 
     public PriceSubscriber() {
         this.latestPrices = new HashMap<>();
